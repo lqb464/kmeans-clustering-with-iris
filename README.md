@@ -17,14 +17,10 @@ All main code, experiments, and results are implemented in a Jupyter Notebook.
 
 ```
 kmeans-clustering-with-iris/
-│
 ├── notebooks/
 │   └── Lab10.ipynb        Main notebook with code and results
-│
-├── src/                   Empty placeholder for reusable source code
-├── outputs/               Empty placeholder for generated outputs
-│
 └── README.md
+└── requirements.txt
 ```
 
 Notes:
@@ -53,7 +49,7 @@ cd kmeans-clustering-with-iris
 2. Install dependencies (example):
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+pip install -r requirement.txt
 ```
 
 3. Start Jupyter Notebook:
@@ -76,6 +72,4 @@ This project uses the Iris dataset, which is publicly available and included in 
 
 This project was completed as part of an Introduction to Data Science course assignment, focusing on basic machine learning concepts and practical experimentation.
 
----
 
-Nếu bạn muốn mình chỉnh theo style “academic”, “CV-ready”, hoặc “ngắn gọn nộp bài” mình có thể viết lại đúng mục đích dùng.
