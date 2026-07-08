@@ -1,0 +1,6 @@
+Cluster,Customers,RecencyMedian,FrequencyMedian,MonetaryMedian,AOVMedian,ProductDiversityMedian,CustomerShare,FutureRevenueMean,FutureRevenueMedian,FutureActiveRate,FutureOrdersMean,SegmentName,RecommendedAction
+0,760,97.0,2.0,735.9200000000001,310.65500000000003,39.0,0.24796084828711257,282.0082236842105,0.0,0.48026315789473684,0.6723684210526316,Needs Attention,Tái kích hoạt có chọn lọc; tránh giảm giá đại trà.
+1,235,8.0,12.0,4806.26,415.31894736842105,115.0,0.0766721044045677,2144.981489361702,897.29,0.8893617021276595,3.676595744680851,Champions,Duy trì chất lượng dịch vụ; thử nghiệm quyền tiếp cận sớm và chương trình giới thiệu.
+2,568,34.0,5.0,1779.75,333.69899999999996,75.0,0.18531810766721044,551.0570616197183,363.995,0.7077464788732394,1.2306338028169015,Loyal Growth,Phát triển giá trị giỏ hàng bằng các thử nghiệm bán chéo phù hợp.
+3,1087,153.0,1.0,208.0,178.07,14.0,0.35464926590538337,94.54410303587856,0.0,0.2548298068077277,0.32934682612695493,Dormant,Hạn chế chiến dịch tốn kém nếu chưa chứng minh được hiệu quả gia tăng.
+4,415,16.0,2.0,468.89,262.34000000000003,29.0,0.13539967373572595,217.56419277108432,0.0,0.45542168674698796,0.7180722891566265,New & Promising,Khuyến khích mua lại bằng lời nhắc đúng thời điểm với chi phí thấp.

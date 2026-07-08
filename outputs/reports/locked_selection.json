@@ -1,0 +1,22 @@
+{
+  "model": "kmeans",
+  "feature_set": "core_rfm",
+  "config": "k=5",
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary"
+  ],
+  "random_state": 42,
+  "development_metrics": {
+    "composite": 0.8885708900375917,
+    "silhouette": 0.32856830916877494,
+    "davies_bouldin": 0.9843047915964325,
+    "calinski_harabasz": 2247.774893318967,
+    "coverage": 1.0,
+    "min_segment_share": 0.0766721044045677,
+    "future_revenue_eta2": 0.21225595178504097,
+    "future_active_eta2": 0.16229793469198606,
+    "stability_ari": 0.9783097244384695
+  }
+}

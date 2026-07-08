@@ -1,0 +1,65 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ─── Virtual Environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.ipython/
+.matplotlib/
+
+# ─── Data & Outputs ──────────────────────────────────────────────────────────
+# Keep data/ tracked but ignore large raw files if needed
+data/*.csv
+outputs/customer_segments.csv
+outputs/batch_predictions.csv
+outputs/models/
+outputs/artifacts/
+outputs/intermediate/
+!outputs/.gitkeep
+!outputs/reports/.gitkeep
+
+# ─── MLflow ──────────────────────────────────────────────────────────────────
+experiments/mlflow.db
+experiments/mlruns/
+mlruns/
+
+# ─── Testing & Coverage ──────────────────────────────────────────────────────
+.pytest_cache/
+.pytest_tmp*/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+.env

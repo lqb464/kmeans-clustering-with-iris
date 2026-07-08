@@ -1,0 +1,28 @@
+{
+  "entity": "Customer ID",
+  "population": "Khách hàng đã định danh tại Vương quốc Anh với giao dịch mua hoàn tất và giá trị dương",
+  "development_cutoff": "2010-08-31 23:59:59",
+  "validation_end": "2010-10-31 23:59:59",
+  "holdout_end": "2010-12-09 23:59:59",
+  "candidate_feature_sets": {
+    "core_rfm": [
+      "Recency",
+      "Frequency",
+      "Monetary"
+    ],
+    "behavioral": [
+      "Recency",
+      "Frequency",
+      "Monetary",
+      "AOV",
+      "AvgBasketSize",
+      "ProductDiversity"
+    ]
+  },
+  "audit_only": [
+    "ActiveDays",
+    "PurchaseCadence",
+    "IsRepeat"
+  ],
+  "transform": "log1p, sau đó StandardScaler được khớp trên quần thể huấn luyện"
+}

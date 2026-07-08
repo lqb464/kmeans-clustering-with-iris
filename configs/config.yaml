@@ -1,0 +1,27 @@
+project:
+  name: Clustomer
+  version: 1.0.0
+  purpose: Hỗ trợ ra quyết định CRM
+
+data:
+  raw_path: data/online_retail_II.csv
+  country: United Kingdom
+  country_display: Vương quốc Anh
+  development_cutoff: "2010-08-31 23:59:59"
+  validation_end: "2010-10-31 23:59:59"
+  holdout_end: "2010-12-09 23:59:59"
+
+model:
+  algorithm: kmeans
+  n_clusters: 5
+  features: [Recency, Frequency, Monetary]
+  transform: log1p_standard
+  random_state: 42
+  manual_review_quantile: 0.95
+  artifact_path: outputs/models/clustomer_segmenter.joblib
+  segment_names_path: outputs/reports/segment_names.json
+
+governance:
+  min_segment_share: 0.05
+  max_payload_rows: 10000
+  drift_psi_warning: 0.20

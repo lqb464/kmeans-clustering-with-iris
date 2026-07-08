@@ -1,0 +1,10 @@
+{
+  "raw_rows": 525461,
+  "raw_customers": 4383,
+  "uk_clean_purchase_rows": 364233,
+  "uk_clean_customers": 3969,
+  "exact_duplicates_removed": 6805,
+  "return_or_cancel_rows_audit": 8472,
+  "data_start": "2009-12-01 07:45:00",
+  "data_end": "2010-12-09 20:01:00"
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kiến trúc Clustomer</title><desc id="desc">Giao dịch bán lẻ gốc đi qua bước kiểm tra dữ liệu, xây dựng đặc trưng, artifact KMeans có phiên bản, API và dashboard CRM kèm giám sát.</desc>
+  <rect width="1100" height="360" fill="#f8fafc"/>
+  <style>.box{fill:#fff;stroke:#2563eb;stroke-width:2;rx:14}.head{font:700 16px Arial;fill:#0f172a}.body{font:13px Arial;fill:#475569}.arrow{stroke:#64748b;stroke-width:3;marker-end:url(#a)}</style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#64748b"/></marker></defs>
+  <rect class="box" x="35" y="90" width="180" height="120"/><text class="head" x="55" y="125">Giao dịch</text><text class="body" x="55" y="151">Online Retail II</text><text class="body" x="55" y="172">Khách hàng UK</text><text class="body" x="55" y="193">đã định danh</text>
+  <rect class="box" x="260" y="90" width="190" height="120"/><text class="head" x="280" y="125">Hợp đồng dữ liệu</text><text class="body" x="280" y="155">Lược đồ + ép kiểu</text><text class="body" x="280" y="178">Quy tắc quần thể</text>
+  <rect class="box" x="495" y="90" width="180" height="120"/><text class="head" x="515" y="125">Pipeline RFM</text><text class="body" x="515" y="151">Đặc trưng an toàn</text><text class="body" x="515" y="172">theo mốc</text><text class="body" x="515" y="193">log1p + chuẩn hóa</text>
+  <rect class="box" x="720" y="90" width="155" height="120"/><text class="head" x="740" y="125">Artifact</text><text class="body" x="740" y="151">KMeans k=5</text><text class="body" x="740" y="172">Phiên bản</text><text class="body" x="740" y="193">+ checksum</text>
+  <rect class="box" x="920" y="45" width="145" height="95"/><text class="head" x="940" y="78">FastAPI</text><text class="body" x="940" y="103">Dự đoán</text><text class="body" x="940" y="124">+ metadata</text>
+  <rect class="box" x="920" y="180" width="145" height="95"/><text class="head" x="940" y="205">Dashboard</text><text class="head" x="940" y="224">CRM</text><text class="body" x="940" y="246">Hành động</text><text class="body" x="940" y="264">+ rà soát</text>
+  <path class="arrow" d="M215 150H255"/><path class="arrow" d="M450 150H490"/><path class="arrow" d="M675 150H715"/><path class="arrow" d="M875 130L915 100"/><path class="arrow" d="M875 175L915 220"/>
+  <text class="body" x="300" y="320">Giám sát: lược đồ • PSI đặc trưng • tỷ trọng phân khúc • độ bất định • kết quả chiến dịch</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "model_version": "1.0.0",
+  "trained_through": "2010-10-31 23:59:59",
+  "data_end": "2010-12-09 23:59:59",
+  "selection": {
+    "model": "kmeans",
+    "feature_set": "core_rfm",
+    "config": "k=5",
+    "features": [
+      "Recency",
+      "Frequency",
+      "Monetary"
+    ],
+    "random_state": 42,
+    "development_metrics": {
+      "composite": 0.8885708900375917,
+      "silhouette": 0.32856830916877494,
+      "davies_bouldin": 0.9843047915964325,
+      "calinski_harabasz": 2247.774893318967,
+      "coverage": 1.0,
+      "min_segment_share": 0.0766721044045677,
+      "future_revenue_eta2": 0.21225595178504097,
+      "future_active_eta2": 0.16229793469198606,
+      "stability_ari": 0.9783097244384695
+    }
+  },
+  "holdout_metrics": {
+    "silhouette": 0.33670838578395235,
+    "davies_bouldin": 0.9667360857063244,
+    "min_segment_share": 0.07257174392935982,
+    "holdout_revenue_eta2": 0.19989886427911835,
+    "holdout_active_eta2": 0.14688674046542613,
+    "holdout_active_rate": 0.37224061810154524,
+    "holdout_revenue": 1105450.352,
+    "manual_review_threshold": 1.5053159577917596
+  },
+  "artifact_sha256": "4c2b1727be9abd8ceadf38af79b189385b380def001edcca5aa8115c5f6d48bb",
+  "limitations": [
+    "Chỉ gồm khách hàng đã định danh tại Vương quốc Anh",
+    "Dữ liệu lịch sử chỉ bao phủ một năm",
+    "Phân khúc không ước lượng tác động nhân quả của chiến dịch",
+    "5% lượt gán bất định nhất cần được rà soát"
+  ]
+}
